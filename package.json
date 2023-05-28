@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  },
+  "name": "week_06_war",
+  "version": "1.0.0",
+  "main": "javas.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

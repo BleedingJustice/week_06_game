@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="javas.js" type="module"></script>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/mocha/mocha.css" />
+    <title>Week 6 War Game</title>
+</head>
+<body>
+    <h2>Game of War</h2>
+    <h3>Created by: Eddie Davis</h3>
+    <p>Week 6 Promineo Tec Project</p>
+
+    <div id="mocha">
+      <p><a href="./index.html">Index</a></p>
+    </div>
+    <div id="messages"></div>
+    <div id="fixtures"></div>
+
+    <script src="./node_modules/mocha/mocha.js"></script>
+    <script src="./node_modules/chai/chai.js"></script>
+    <script src="javas.js"></script>
+    <script>
+      mocha.setup('bdd');
+    </script>
+    <script src="tests.js"></script>
+    <script>
+      mocha.run();
+    </script>
+
+</body>
+</html>
